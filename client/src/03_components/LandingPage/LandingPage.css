@@ -1,0 +1,34 @@
+.landingPage {
+    background-image: url("../../05_img/LandingPage.jpg");
+    background-position: center;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+  }
+  .landingTitle {
+    color: white;
+    margin-left: 40px;
+    font-size:70px;
+  }
+  
+  .landingSubTitle {
+    color: white;
+    margin-top: 115px;
+    margin-left: -250px;
+    font-size:80;
+  }
+  
+  .landingButton {
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    margin: -25px 0 0 -25px;
+    border-radius: 17px;
+    border: 1px solid #ffffff;
+    padding: 20px 165px;
+    background-color: white;
+    cursor:pointer;
+  }
+  

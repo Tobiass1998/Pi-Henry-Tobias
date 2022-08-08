@@ -1,0 +1,59 @@
+.cardsContainer{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #ade8f4;
+    padding: 0 0 9rem 0;
+    position: absolute;
+    
+  
+
+  
+    
+}
+.filterContainer{
+    
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ade8f4;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0 0 1rem 0;
+    justify-content:flex-end;
+    align-items: stretch;
+    
+}
+
+.cardsBox{
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+.filterAndOrder{
+    
+    height: 100%;
+   margin-left: 2rem;
+    border-radius: 10px;
+    border:none;
+    background-color:#0197b2;
+    color: #ffffff;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.filterAndOrder:last-of-type{
+    margin-right: 1rem;
+}
+
+.filterAndOrder:first-of-type{
+    margin-left: 1;
+}

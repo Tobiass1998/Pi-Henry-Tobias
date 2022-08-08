@@ -1,0 +1,28 @@
+.formSearchBar {
+    display: flex;
+    align-content: center;
+    width: 30%;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .inputCountry {
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+   
+  }
+  .inputButton{
+    background-color: white;
+    background-image: url("../../05_img/lupa.ico");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    position:absolute;
+    border: 1px solid white;
+    margin-left: 8px;
+    cursor: pointer;
+  }
