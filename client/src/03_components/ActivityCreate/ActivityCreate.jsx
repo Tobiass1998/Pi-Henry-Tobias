@@ -23,9 +23,9 @@ function validate(input) { // funcion para validar los campos.
 }
 
 export default function ActivityCreate() { // esta funcion es la que se renderiza en el componente ActivityCreate
-  const dispatch = useDispatch(); 
+  const dispatch = useDispatch();  // se crea un dispatch para poder usarlo en el componente
   const history = useHistory();
-  const countries = useSelector((state) => state.allCountries); 
+  const countries = useSelector((state) => state.allCountries);  // se crea una variable para poder usarla en el componente
   const [errors, setErrors] = useState({});
 
   const [input, setInput] = useState({ 

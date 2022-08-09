@@ -53,7 +53,7 @@ export default function Detail (props){
                   )})}</div>
   
   
-              </div> :<div class="lds-roller"><div></div><div></div><div></div>
+              </div> :<div class="lds-ellipsis"><div></div><div></div><div></div>
                 </div>
                 
       }</div>
